@@ -1,0 +1,34 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none",
+        "reportShadowedImports": "none"
+    },
+    "python.analysis.extraPaths": [
+        "",
+        "/Users/itamarserfaty/.vscode/extensions/joedevivo.vscode-circuitpython-0.2.0-darwin-x64/stubs",
+        "/Users/itamarserfaty/Library/Application Support/Code/User/globalStorage/joedevivo.vscode-circuitpython/bundle/20260620/adafruit-circuitpython-bundle-py-20260620/lib"
+    ],
+    "circuitpython.board.version": null,
+    "pymakr.devices.include": [
+        "wchusbserial",
+        "usbserial",
+        "CH34[01]",
+        "CP21"
+    ],
+    "pymakr.devices.exclude": [
+        "Bluetooth",
+        "BLTH",
+        "Soundcore",
+        "soundcore"
+    ],
+    "pymakr.ignore": [
+        ".vscode",
+        ".gitignore",
+        ".git",
+        ".DS_Store",
+        "__pycache__",
+        "env",
+        "venv"
+    ]
+}
