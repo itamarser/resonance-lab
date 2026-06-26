@@ -6,3 +6,4 @@ venv/
 env/
 .env
 wifi_config.py
+thingspeak_config.py
